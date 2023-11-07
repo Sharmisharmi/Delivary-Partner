@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OTP Verification"
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="25dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome back you've been missed"
+                android:textColor="#4E4D4D"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="13dp"
+                android:layout_marginTop="1dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We  sent verification code to "
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="13dp"
+                 />
+
+
+            <TextView
+                android:id="@+id/phone_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+91 9364535193"
+                android:fontFamily="@font/poppins_semibold"
+                android:textColor="@color/violet"
+                android:textSize="15dp" />
+
+            </LinearLayout>
+
+            <com.goodiebag.pinview.Pinview
+                android:id="@+id/pinview"
+                app:pinBackground="@drawable/gradient_theme_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:pinWidth="40dp"
+                app:pinHeight="40dp"
+                app:pinLength="4"
+                app:cursorVisible="false"
+                app:forceKeyboard="true"
+                app:hint="0"
+                app:textSize="6dp"
+                app:inputType="number"
+                app:password="false"
+                android:layout_marginTop="35dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+        <LinearLayout
+            android:id="@+id/verifyLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:background="@drawable/gradient_theme"
+            android:gravity="center"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:paddingVertical="6dp"
+                android:textSize="18dp"
+                android:paddingHorizontal="10dp"
+                android:drawableRight="@drawable/double_arrow_right_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/white"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

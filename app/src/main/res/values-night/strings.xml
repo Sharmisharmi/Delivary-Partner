@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accept_tc_pp">Already have an account?<font color='#6240FE'> SignIn</font> </string>
+    <string name="accept_tc_si">Don\'t have an account?<font color='#6240FE'> SignUp</font> </string>
+    <string name="dashboard">Dashboard</string>
+    <string name="orders">Orders</string>
+    <string name="myorders">My Orders</string>
+    <string name="wallet">Wallet</string>
+
+    <string name="google_map_api_key">AIzaSyAh_98BsIKY2wqwNzq-hweXauUM5EJdQxk</string>
+    <string name="online_driver">Online Driver</string>
+    <string name="offline">Offline</string>
+    <string name="need_location">Location</string>
+    <string name="location_content">location_content</string>
+    <string name="ok">ok</string>
+    <string name="deviceLocationUtil_default_rationale_request_title">Location Permission Required</string>
+    <string name="deviceLocationUtil_default_rationale_request_messageBody">
+        This app requires location permissions in order to provide location-aware functionality.
+        If the permission is not granted any features that rely on such functionality may not work correctly.
+    </string>
+
+    <string name="deviceLocationUtil_request_returned_null">Location request returned null</string>
+    <string name="deviceLocationUtil_requests_currently_active">Device is already receiving location updates</string>
+
+    <string name="deviceLocationUtil_location_provided_by_lastLocation">
+        Location provided by mLocationClient.getLastLocation()
+    </string>
+    <string name="deviceLocationUtil_location_provided_by_locationUpdates">
+        Location provided by mLocationClient.requestLocationUpdates()
+    </string>
+    <string name="deviceLocationUtil_location_settings_satisfied">
+        Location settings satisfied
+    </string>
+    <string name="deviceLocationUtil_location_settings_not_satisfied">
+        Location settings not satisfied. Attempting to resolve…
+    </string>
+    <string name="deviceLocationUtil_location_updates_removed">Location updates removed</string>
+    <string name="deviceLocationUtil_location_updates_resumed">Location updates resumed</string>
+
+    <string name="deviceLocationUtil_geocoder_not_available">Geocoder not available. Check network connection.</string>
+    <string name="deviceLocationUtil_geocoder_invalid_latLong">Invalid latitude or longitude</string>
+    <string name="deviceLocationUtil_geocoder_address_not_found">No address found for this location</string>
+    <string name="deviceLocationUtil_geocoder_invalid_element">Invalid element code</string>
+
+
+</resources>

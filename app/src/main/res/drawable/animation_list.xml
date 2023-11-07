@@ -1,0 +1,7 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/rounded_corner" android:duration="333"/>
+
+    <item android:drawable="@drawable/gradient_theme_bg" android:duration="333"/>
+
+    <item android:drawable="@drawable/gradient_theme" android:duration="333"/>
+</animation-list>

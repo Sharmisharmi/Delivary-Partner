@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877219461411",
+    "project_id": "elite-delivery-49bbf",
+    "storage_bucket": "elite-delivery-49bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877219461411:android:e63f281c037267318eb496",
+        "android_client_info": {
+          "package_name": "com.example.elitedelivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACxXR9lODrxs5uwBfH8H-FKts1MXXMyBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

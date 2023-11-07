@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:id="@+id/backpressImage"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/arrow_back"
+            android:layout_gravity="center_vertical"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Details"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:layout_marginHorizontal="15dp">
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Orders"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginTop="2dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Fresh Vegetables"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Qty: 1"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="\u20b9 150.00"
+                        android:layout_weight="0.7"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"
+                        android:layout_gravity="end"
+                        android:gravity="end"/>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/stroke_line_light"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Fresh Vegetables"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Qty: 1"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="\u20b9 150.00"
+                        android:layout_weight="0.7"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"
+                        android:layout_gravity="end"
+                        android:gravity="end"/>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/stroke_line_light"
+                    android:layout_marginTop="10dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Fresh Vegetables"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Qty: 1"
+                        android:layout_weight="0.3"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="\u20b9 150.00"
+                        android:layout_weight="0.7"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="12dp"
+                        android:layout_gravity="end"
+                        android:gravity="end"/>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:background="@drawable/stroke_line_light"
+                    android:layout_marginTop="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="1"
+                        android:paddingVertical="8dp">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="Total Amount"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_medium"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:text="\u20b9 450"
+                            android:textSize="15dp"
+                            android:gravity="end"
+                            android:textColor="@color/violet"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="35dp"
+                    android:background="@drawable/gradient_theme"
+                    android:paddingHorizontal="15dp"
+                    android:paddingVertical="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Items : "
+                            android:textSize="12dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/rounded_corner"
+                            android:paddingHorizontal="8dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end">
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Payment Status : "
+                                android:textSize="11dp"
+                                android:fontFamily="@font/poppins_medium"
+                                android:textColor="@color/white"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Paid"
+                                android:textSize="11dp"
+                                android:textColor="#4CAF50"
+                                android:fontFamily="@font/poppins_semibold"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/rounded_corner"
+                                android:backgroundTint="@color/light_green"
+                                android:paddingHorizontal="5dp"/>
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2"
+                        android:gravity="end"
+                        android:layout_marginTop="5dp">
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Payment Method : "
+                            android:textSize="11dp"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/white"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cash"
+                            android:textSize="14dp"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins_semibold" />
+
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="25dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Location Info"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:layout_marginTop="2dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/border_radius_black"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:weightSum="1.5">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/radio_button_checked_24"
+                            android:layout_gravity="center"
+                            android:tint="#0BB612"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pickup"
+                            android:textSize="11dp"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="#0BB612"
+                            android:fontFamily="@font/poppins_regular"/>
+                    </LinearLayout>
+
+                        <View
+                            android:layout_width="3dp"
+                            android:layout_height="55dp"
+                            android:background="@drawable/vertical_stroke"
+                            android:layout_gravity="start"
+                            android:layout_marginLeft="3dp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.2"
+                        android:text="PRM Towers, 2nd floor, old madras road, Indira Nagar, Bangalore, Karnataka"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/poppins_medium"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="1.5">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="0.3">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/radio_button_checked_24"
+                            android:layout_gravity="center"
+                            android:tint="@color/red"/>
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Drop"
+                            android:textSize="10dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/red"/>
+
+                    </LinearLayout>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="PRM building, 2nd floor, old madras road, Indira Nagar, Bangalore, Karnataka"
+                        android:textSize="13dp"
+                        android:layout_weight="1.2"
+                        android:fontFamily="@font/poppins_medium" />
+                </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reject"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/border_radius_black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingVertical="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:id="@+id/acceptTXT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Accept"
+            android:fontFamily="@font/poppins_medium"
+            android:background="@drawable/rounded_corner"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#4CAF50"
+            android:textColor="@color/white"
+            android:layout_marginRight="15dp"
+            android:paddingVertical="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

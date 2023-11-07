@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/white">
+
+
+    <com.github.chengang.library.TickView
+        android:id="@+id/tick_view_accent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:check_base_color="@color/violet"
+        app:check_tick_color="@color/white"
+        app:uncheck_base_color="@color/violet"
+        app:rate="fast"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done!!"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/successMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We have recieved your withdrawal request"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You'll get your money within 2 hours."
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="11dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/violet"/>
+
+
+</LinearLayout>

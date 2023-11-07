@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="15dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:src="@drawable/confetti"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hurray  !!"
+            android:fontFamily="@font/shortbaby"
+            android:textColor="@color/violet"
+            android:textSize="36dp"
+            android:layout_marginTop="45dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You have successfully logged in..."
+            android:fontFamily="@font/poppins_regular"
+            android:textColor="#767677"
+            android:textSize="14dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard_tab"
+        android:icon="@drawable/dashboard"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/orders_tab"
+        android:icon="@drawable/orders"
+        android:title="@string/orders" />
+    <item
+        android:id="@+id/myorders_tab"
+        android:icon="@drawable/motorbike"
+        android:title="@string/myorders" />
+    <item
+        android:id="@+id/wallet_tab"
+        android:icon="@drawable/wallet"
+        android:title="@string/wallet" />
+</menu>
