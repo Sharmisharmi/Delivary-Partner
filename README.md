@@ -1,4 +1,4 @@
-Delivery partner App developed in Kotlin.
+Delivery partner App developed in Kotlin: simple app to manage delivered, canceled, and orders to provide for delivery boy.
 
 ### Libraries
 
@@ -16,10 +16,10 @@ Delivery partner App developed in Kotlin.
 -    Online, and Offline payment available.
   
 ### ScreenShots
-![DashBoard](https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/3685e92f-6ae8-4372-a069-75bd7a9ee694)   
-![Profile](https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/12253cb8-c37c-4cbb-9626-fd1082203d1c)
+<img src= "https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/3685e92f-6ae8-4372-a069-75bd7a9ee694.png" width=30% height=30%>  
+<img src= "https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/12253cb8-c37c-4cbb-9626-fd1082203d1c.png" width=30% height=30%> 
 
 
-![Order](https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/1f27088d-c8f4-4df7-8663-580a09898e64)
-![OrderDetails](https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/0ed04d3d-c878-47c7-9aa9-729b4d4487f5)
-![Wallet](https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/b72696a0-41fc-4bfe-bb6d-90e89a26a152)
+<img src= "https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/1f27088d-c8f4-4df7-8663-580a09898e64.png" width=30% height=30%> 
+<img src= "https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/0ed04d3d-c878-47c7-9aa9-729b4d4487f5.png" width=30% height=30%> 
+<img src= "https://github.com/Sharmisharmi/Delivary-Partner/assets/69668770/b72696a0-41fc-4bfe-bb6d-90e89a26a152.png" width=30% height=30%> 
