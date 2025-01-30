@@ -1,4 +1,4 @@
-Delivery partner App developed in Kotlin: simple app to manage delivered, canceled, and orders to provide for delivery boy.
+The delivery partner app developed in Kotlin is a simple app to manage delivered, canceled, and orders provided for delivery boys.
 
 ### Libraries
 
